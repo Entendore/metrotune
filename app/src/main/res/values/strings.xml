@@ -1,0 +1,319 @@
+<resources>
+    <string name="app_name">MetroTune</string>
+    <string name="metronome">Metronome</string>
+    <string name="tuner">Tuner</string>
+    <string name="practice">Practice</string>
+    <string name="settings">Settings</string>
+    <string name="shortcut_tuner">Tuner</string>
+    <string name="shortcut_tuner_long">Open the tuner</string>
+    <string name="shortcut_metronome">Metronome</string>
+    <string name="shortcut_metronome_long">Open the metronome</string>
+
+    <string name="bpm_label">bpm</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="tap_tempo">Tap tempo</string>
+    <string name="decrease_bpm">Decrease BPM</string>
+    <string name="increase_bpm">Increase BPM</string>
+    <string name="beats_per_bar">Beats / bar</string>
+    <string name="subdivision">Subdivision</string>
+    <string name="click_volume">Click volume</string>
+    <string name="flash_downbeat">Flash screen on downbeat</string>
+    <string name="haptics">Vibrate on downbeat</string>
+    <string name="beat_pattern">Beat pattern</string>
+    <string name="beat_pattern_hint">Tap a beat to cycle: accent · normal · soft · mute</string>
+    <string name="countin">Count-in</string>
+    <string name="countin_off">Off</string>
+    <string name="countin_active">Count-in…</string>
+    <string name="trainer">Trainer</string>
+    <string name="trainer_off">Off</string>
+    <string name="trainer_ramp">Tempo ramp</string>
+    <string name="trainer_gap">Bar gaps (mute drill)</string>
+    <string name="ramp_step">Step: +%1$d BPM</string>
+    <string name="ramp_every">Every %1$d bars</string>
+    <string name="gap_play">Play %1$d bars</string>
+    <string name="gap_mute">Mute %1$d bars</string>
+    <string name="poly">Polyrhythm</string>
+    <string name="poly_hint">Two voices per bar — the low tone is the second voice. Dots follow the first voice.</string>
+    <string name="midi_clock">MIDI clock out (sync a DAW)</string>
+
+    <string name="setlist">Setlist runner</string>
+    <string name="setlist_off">Off</string>
+    <string name="setlist_loop">Loop setlist</string>
+    <string name="setlist_add_item">＋ Add current</string>
+    <string name="setlist_save">Save setlist…</string>
+    <string name="setlist_name_hint">Setlist name</string>
+    <string name="setlist_item_name">Part name</string>
+    <string name="setlist_bars_hint">Bars (0 = to end)</string>
+    <string name="setlist_part_n">Part %1$d</string>
+    <string name="setlist_empty">Add at least one part first</string>
+    <string name="setlist_ready">Ready: %1$s</string>
+    <string name="setlist_now">Now: %1$s</string>
+    <string name="setlist_now_next">Now: %1$s · Next: %2$s</string>
+    <string name="setlist_complete">Setlist complete ✓</string>
+    <string name="setlist_edit_item">Edit part</string>
+    <string name="setlist_pattern">Pattern…</string>
+    <string name="setlist_pattern_inherit">Inherit app pattern</string>
+    <string name="pattern_editor_title">Beat pattern</string>
+    <string name="setlist_share">Share CSV</string>
+
+    <string name="preset_name_hint">Name (e.g. “Song A chorus”)</string>
+    <string name="save_preset">+ Save preset</string>
+    <string name="save">Save</string>
+    <string name="delete_preset_confirm">Delete preset “%1$s”?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="instrument">Instrument</string>
+    <string name="a4_reference">A4 reference</string>
+    <string name="mode_chromatic">Chromatic</string>
+    <string name="mode_string">Strings</string>
+    <string name="mode_poly">Poly</string>
+    <string name="pro_mode">Pro tools</string>
+    <string name="listening">Listening… play any note</string>
+    <string name="in_tune">In tune ✓</string>
+    <string name="too_flat">Too flat — tighten the string</string>
+    <string name="too_sharp">Too sharp — loosen the string</string>
+    <string name="held">Hold…</string>
+    <string name="detected_freq">%1$.1f Hz</string>
+    <string name="target_freq">Target: %1$.1f Hz</string>
+    <string name="cents_format">%1$+.1f¢</string>
+    <string name="grant_mic">Allow microphone access</string>
+    <string name="string_mode_hint">Tap a string to lock · long-press for personal offsets</string>
+    <string name="poly_mode_hint">Strum a chord — detected strings light up below</string>
+    <string name="string_row">String %1$d · %2$s</string>
+    <string name="string_row_active">String %1$d · %2$s  (%3$+.0f¢)</string>
+    <string name="quick_tone">Hear target</string>
+    <string name="no_analysis">Play a note first</string>
+    <string name="audio_focus_lost">Stopped — another app took audio</string>
+    <string name="share_analysis">Share analysis (CSV)</string>
+
+    <string name="octave_corrected">octave ↧ corrected</string>
+    <string name="low_range_badge">LOW · hi-res window</string>
+    <string name="auto_octave">Auto octave correction</string>
+    <string name="adaptive_gate">Adaptive noise gate</string>
+
+    <string name="pro_section">Studio calibration</string>
+    <string name="level">Input level</string>
+    <string name="noise_gate">Noise gate</string>
+    <string name="gate_value">Noise gate: %1$.0f dB</string>
+    <string name="temperament">Temperament</string>
+    <string name="tonic">Tonic</string>
+    <string name="transposition">Transposition</string>
+    <string name="mic_selection">Microphone</string>
+    <string name="mic_auto">Auto (system default)</string>
+    <string name="tolerance">Tuning tolerance</string>
+    <string name="calibration">Calibration offset (±50¢)</string>
+    <string name="sweetened">Sweetened tuning (thirds-friendly offsets)</string>
+    <string name="stretch">Piano stretch (Railsback)</string>
+    <string name="auto_advance">Auto-advance to next string</string>
+    <string name="feiten">Buzz Feiten offsets (guitar)</string>
+    <string name="overpull">Pitch-raise overpull</string>
+    <string name="overpull_off">Overpull off</string>
+    <string name="overpull_value">Overpull %1$d%% of flatness</string>
+    <string name="overpull_fmt">%1$+.0f¢ overpull — tune needle to 0</string>
+    <string name="string_in_tune">String %1$d (%2$s) in tune — next</string>
+    <string name="all_strings_tuned">All strings tuned ✓</string>
+    <string name="audit">Audit session (report at end)</string>
+    <string name="audit_progress">String %1$d of %2$d</string>
+
+    <string name="drift_graph_hint">Pitch drift (last 8 s)</string>
+    <string name="spectrum_hint">Spectrum · log frequency — red line = tracked fundamental</string>
+    <string name="harmonics_hint">Harmonics — dots: deviation (±40¢) · bars: level</string>
+    <string name="keyboard_hint">Keyboard A0–C8 · dots = open strings · tap a key to hear it</string>
+    <string name="inharmonicity_fmt">Inharmonicity B ≈ %1$.3g</string>
+    <string name="strobe">Strobe</string>
+    <string name="visualizers">Visualizers</string>
+
+    <string name="interval_none">None (single tone)</string>
+    <string name="tone_section">Reference tone</string>
+    <string name="play_tone">Play tone</string>
+    <string name="stop_tone">Stop tone</string>
+
+    <string name="a4_effective">Effective A4 = %1$.1f Hz</string>
+    <string name="calibrate_a4">Match band…</string>
+    <string name="calibrating">Listening for an A… (tap to cancel)</string>
+    <string name="calibrated_to">A4 set to %1$.1f Hz</string>
+    <string name="calibrate_timeout">No A detected — cancelled</string>
+    <string name="recall_msg">%1$s was tuned at %2$.1f Hz last time</string>
+    <string name="recall_apply">Use %1$.1f Hz</string>
+
+    <string name="drill">Intonation drill</string>
+    <string name="drill_hint">Start the drill, then hold the target note in tune — your sustain is scored</string>
+    <string name="drill_start">Start drill</string>
+    <string name="drill_stop">Stop drill</string>
+    <string name="drill_hold">%1$.1f s</string>
+    <string name="drill_stats">Best %1$s · In tune %2$s · Attempts %3$d</string>
+    <string name="drill_no_target">Play a note first — the drill targets what you\'re playing</string>
+    <string name="drill_pb">PB %1$s · %2$s</string>
+    <string name="drill_pb_none">PB —</string>
+    <string name="drill_records">Records…</string>
+    <string name="records_title">Long-tone records</string>
+    <string name="records_empty">No records yet — run an intonation drill</string>
+    <string name="records_row">%1$s · %2$s · %3$s · %4$d×</string>
+    <string name="record_new">New record: %1$s %2$s!</string>
+
+    <string name="tuning_curve">Tuning curve…</string>
+    <string name="curve_save">Save curve…</string>
+    <string name="curve_name_hint">Curve name (e.g. “Studio upright”)</string>
+    <string name="curve_saved">Curve saved and active</string>
+    <string name="curve_pick">Tuning curve</string>
+    <string name="curve_none">Railsback (default)</string>
+    <string name="curve_capture_new">＋ Capture new curve…</string>
+    <string name="curve_captured">Captured: %1$d notes</string>
+    <string name="freeze">Freeze ref</string>
+    <string name="unfreeze">Unfreeze</string>
+    <string name="beat_rate">%1$.1f beats/s</string>
+    <string name="beat_frozen">FROZEN %1$s Hz · %2$.1f beats/s</string>
+
+    <string name="ear">Ear training</string>
+    <string name="ear_hint">Reference tone, then a test tone — was the test sharp or flat?</string>
+    <string name="ear_start">Start</string>
+    <string name="ear_stop">Stop ear training</string>
+    <string name="ear_sharp">Sharp</string>
+    <string name="ear_flat">Flat</string>
+    <string name="ear_score">Rounds %1$d · Correct %2$d · Streak %3$d · Best %4$d</string>
+    <string name="ear_right">✓ Right! (%1$+.0f¢) · streak %2$d</string>
+    <string name="ear_wrong">✗ The test was %1$+.0f¢</string>
+
+    <string name="string_health">String health…</string>
+    <string name="health_title">String health — %1$s</string>
+    <string name="health_row">%1$s · avg %2$+.1f¢ · last %3$+.1f¢ · %4$d tunings</string>
+    <string name="health_empty">Tune strings to build history</string>
+
+    <string name="setup_wizard">Intonation setup…</string>
+    <string name="setup_hint">Per string: play open, then fret — differential measurement</string>
+    <string name="setup_kind">What are we measuring?</string>
+    <string name="setup_kind_saddle">Saddle — 12th fret</string>
+    <string name="setup_kind_nut">Nut — 1st fret</string>
+    <string name="setup_scale_hint">Scale length in mm (nut → saddle)</string>
+    <string name="setup_scale_needed">Enter the scale length in mm</string>
+    <string name="setup_play_open">String %1$d — play OPEN (%2$s)</string>
+    <string name="setup_play_fret">String %1$d — fret at the 12th fret (%2$s)</string>
+    <string name="setup_play_fret1">String %1$d — fret at the 1st fret (%2$s)</string>
+    <string name="setup_result">%1$s: %2$+.1f¢ → %3$+.1f mm %4$s</string>
+    <string name="setup_result_ok">%1$s: %2$+.1f¢ — %3$s</string>
+    <string name="setup_toward_bridge">toward bridge</string>
+    <string name="setup_toward_nut">toward nut</string>
+    <string name="setup_ok">intonation OK</string>
+    <string name="setup_nut_ok">nut OK</string>
+    <string name="setup_nut_high">nut slots likely too high — consider filing</string>
+    <string name="setup_done">Setup measured — sharing report</string>
+    <string name="setup_share">Share report</string>
+
+    <string name="temp_editor">New temperament…</string>
+    <string name="temp_base">Start from</string>
+    <string name="temp_saved">Temperament saved</string>
+
+    <string name="detect_tuning">🔍 Detect my tuning…</string>
+    <string name="detect_title">Detected tuning</string>
+    <string name="detect_none">Not enough distinct notes yet — play open strings</string>
+    <string name="suggest_msg">Playing %1$s?</string>
+    <string name="suggest_switch">Switch</string>
+    <string name="interval_fmt">%1$s · %2$+.1f¢ vs just · %3$+.1f¢ vs equal</string>
+    <string name="interval_nojust">%1$s · %2$+.1f¢ vs equal</string>
+
+    <string name="my_offsets">Personal string offsets</string>
+    <string name="offset_hint">Your instrument\'s habits (e.g. B runs +3¢). Overrides sweetened/Feiten for this string.</string>
+    <string name="offset_reset">Reset</string>
+
+    <string name="session">Multi-instrument session…</string>
+    <string name="session_pick">Pick instruments (in order)</string>
+    <string name="session_start">Start session</string>
+    <string name="session_cancel">Cancel</string>
+    <string name="session_empty">Select at least one instrument</string>
+    <string name="session_progress">Instrument %1$d/%2$d · String %3$d/%4$d · %5$d/%6$d done</string>
+    <string name="session_started">Tuning %1$d instruments — starting with %2$s</string>
+    <string name="session_now">Now tuning: %1$s (%2$d of %3$d)</string>
+    <string name="session_done">All instruments tuned ✓</string>
+    <string name="session_cancelled">Session cancelled</string>
+
+    <string name="pick_instrument">Choose instrument</string>
+    <string name="picker_create">＋ New instrument…</string>
+    <string name="picker_recent">Recent</string>
+    <string name="ci_title">Custom instrument</string>
+    <string name="ci_name_hint">Name (e.g. “Hurdy-gurdy”)</string>
+    <string name="ci_strings_hint">Strings, low to high: C3, G3, C4</string>
+    <string name="ci_invalid">Check the name and string notes (A0–C8, e.g. “D3”)</string>
+    <string name="ci_delete_confirm">Delete “%1$s”?</string>
+
+    <string name="mic_rationale_title">Microphone access</string>
+    <string name="mic_rationale_message">MetroTune uses the microphone only while the tuner screen is open, to detect the pitch of your instrument. Audio is analyzed on-device and never recorded or transmitted. If you enable MIDI output, the tuner keeps running in the background so your DAW can receive notes.</string>
+    <string name="continue_label">Continue</string>
+    <string name="mic_busy">Microphone unavailable — another app may be using it</string>
+    <string name="retry">Retry</string>
+    <string name="mic_disconnected">Microphone disconnected — switched to built-in mic</string>
+    <string name="mic_rationale_reset">Explanation will show again next time</string>
+
+    <string name="midi_out">MIDI out (Bluetooth LE)</string>
+    <string name="midi_bt_label">Advertise BLE-MIDI</string>
+    <string name="midi_status_prefix">Status: %1$s</string>
+    <string name="midi_unavailable">BLE-MIDI unavailable — no Bluetooth adapter</string>
+    <string name="midi_permission_denied">Bluetooth permission denied</string>
+    <string name="midi_channel">Channel</string>
+    <string name="midi_pitch_bend">Stream pitch bend (±2 semitones)</string>
+
+    <string name="history">Recent sessions</string>
+    <string name="history_empty">No sessions logged yet</string>
+    <string name="today_note">Note for today</string>
+    <string name="note_hint">What did you practice?</string>
+    <string name="week_chart_hint">Last 7 days (dashed line = daily goal)</string>
+    <string name="keep_screen_on">Keep screen on while playing / listening</string>
+    <string name="resume_start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="goal_label">Daily goal</string>
+    <string name="auto_count">Count metronome time automatically</string>
+    <string name="practice_today">Today: %1$s</string>
+    <string name="practice_goal_progress">%1$s of %2$s</string>
+    <string name="practice_week">This week: %1$s across %2$d days</string>
+
+    <string name="section_general">General</string>
+    <string name="settings_keep_awake">Keep screen on</string>
+    <string name="settings_keep_awake_sub">While the metronome plays or the tuner listens</string>
+    <string name="settings_haptics_sub">Metronome downbeat</string>
+    <string name="settings_auto_log_sub">Metronome time counts toward your daily goal</string>
+    <string name="section_microphone">Microphone</string>
+    <string name="row_reset_mic">Re-show microphone explanation</string>
+    <string name="row_reset_mic_sub">Shown before the system permission dialog</string>
+    <string name="section_backup">Backup</string>
+    <string name="row_export">Export backup</string>
+    <string name="row_export_sub">Settings, practice data, custom instruments, setlists</string>
+    <string name="row_import">Import backup</string>
+    <string name="row_import_sub">Restore from a MetroTune JSON file</string>
+    <string name="export_done">Backup saved</string>
+    <string name="export_failed">Export failed</string>
+    <string name="import_done">Backup restored</string>
+    <string name="import_summary">%1$d settings restored. Restart MetroTune to apply everything.</string>
+    <string name="import_failed">Not a valid MetroTune backup file</string>
+    <string name="section_support">Support</string>
+    <string name="row_onboarding">Replay intro</string>
+    <string name="row_onboarding_sub">The three-card tour from first launch</string>
+    <string name="about">About</string>
+    <string name="sub_about">Version, audio capabilities</string>
+
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_start">Get started</string>
+    <string name="ob1_title">Metronome</string>
+    <string name="ob1_body">Tap the beat pattern to sculpt accents, save tempo presets, run ramp &amp; gap drills, and let setlists advance themselves — even with the screen off.</string>
+    <string name="ob2_title">Tuner</string>
+    <string name="ob2_body">Pick your instrument from 80+ presets or create your own. Chromatic, per-string and poly modes, strobe, spectrum, harmonics — winds and brass show written pitch automatically.</string>
+    <string name="ob3_title">Practice</string>
+    <string name="ob3_body">Set a daily goal, run intonation drills with per-note records, and keep notes on what you practiced. Everything stays on your device.</string>
+
+    <string name="widget_desc">Metronome quick control</string>
+    <string name="widget_start_failed">Could not start the metronome — open the app</string>
+    <string name="notif_channel">Metronome</string>
+    <string name="notif_title">Metronome playing</string>
+    <string name="notif_text">%1$d BPM</string>
+    <string name="action_stop">Stop</string>
+
+    <string-array name="subdivisions">
+        <item>Quarter notes</item>
+        <item>Eighth notes</item>
+        <item>Triplets</item>
+        <item>Sixteenth notes</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_metronome" android:icon="@drawable/ic_music_note" android:title="@string/metronome" />
+    <item android:id="@+id/nav_tuner" android:icon="@drawable/ic_mic" android:title="@string/tuner" />
+    <item android:id="@+id/nav_practice" android:icon="@drawable/ic_timer" android:title="@string/practice" />
+    <item android:id="@+id/nav_settings" android:icon="@drawable/ic_settings" android:title="@string/settings" />
+</menu>

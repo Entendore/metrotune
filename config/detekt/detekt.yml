@@ -1,0 +1,9 @@
+build:
+  maxIssues: 0
+style:
+  LongMethod:
+    active: false
+  ComplexMethod:
+    active: false
+  ReturnCount:
+    active: false
