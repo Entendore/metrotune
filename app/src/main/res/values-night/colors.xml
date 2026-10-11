@@ -1,0 +1,4 @@
+<resources>
+    <color name="viz_surface">#1E2430</color>
+    <color name="viz_stroke">#33FFFFFF</color>
+</resources>

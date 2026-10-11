@@ -1,0 +1,10 @@
+<resources>
+    <color name="accent">#7C4DFF</color>
+    <color name="beat_off">#78909C</color>
+    <color name="beat_on">#7C4DFF</color>
+    <color name="beat_down_on">#FF5252</color>
+    <color name="in_tune">#4CAF50</color>
+    <color name="off_tune">#FFB74D</color>
+    <color name="viz_surface">#E9EDF2</color>
+    <color name="viz_stroke">#26101820</color>
+</resources>

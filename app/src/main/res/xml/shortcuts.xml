@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="tuner"
+        android:enabled="true"
+        android:icon="@drawable/ic_mic"
+        android:shortcutShortLabel="@string/shortcut_tuner"
+        android:shortcutLongLabel="@string/shortcut_tuner_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.metrotune"
+            android:targetClass="com.example.metrotune.MainActivity">
+            <extra android:name="tab" android:value="tuner" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="metronome"
+        android:enabled="true"
+        android:icon="@drawable/ic_music_note"
+        android:shortcutShortLabel="@string/shortcut_metronome"
+        android:shortcutLongLabel="@string/shortcut_metronome_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.metrotune"
+            android:targetClass="com.example.metrotune.MainActivity">
+            <extra android:name="tab" android:value="metronome" />
+        </intent>
+    </shortcut>
+</shortcuts>
